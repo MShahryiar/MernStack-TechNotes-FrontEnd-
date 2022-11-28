@@ -4,7 +4,7 @@ import {
 } from "@reduxjs/toolkit";
 import { apiSlice } from "../../app/api/apiSlice"
 
-const notesAdapter = createEntityAdapter({})
+const notesAdapter = createEntityAdapter({})              
 
 const initialState = notesAdapter.getInitialState()
 
